@@ -1,0 +1,16 @@
+{
+  "name": "oliverwiki",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Oliver <xuzheng465@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "build": "tiddlywiki wikis --build index",
+    "start": "tiddlywiki wikis --listen",
+    "sync": "bash ./sync.sh"
+  },
+  "dependencies": {
+    "tiddlywiki": "^5.1.22"
+  }
+}
