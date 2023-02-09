@@ -6,8 +6,8 @@
   "author": "Oliver <xuzheng465@gmail.com>",
   "main": "index.js",
   "scripts": {
-    "build": "tiddlywiki wikis --build index",
-    "start": "tiddlywiki wikis --listen",
+    "build": "tiddlywiki . --build index",
+    "start": "tiddlywiki . --listen",
     "sync": "bash ./sync.sh"
   },
   "dependencies": {
