@@ -1,0 +1,9 @@
+created: 20230210173728961
+modified: 20230210173900861
+tags: Shell
+title: 输出$PATH
+type: text/vnd.tiddlywiki
+
+```sh
+echo $PATH | tr : '\n'
+```
